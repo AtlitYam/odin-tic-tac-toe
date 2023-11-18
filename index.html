@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/default.css">
+    <script src="javascript/playerModal.js" type="module" defer></script>
+
+    <title>Tic Tac Toe
+    </title>
+</head>
+
+<body>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <form>
+                <h2>Player one's information</h2>
+                <label for="playerOneName">Name:</label>
+                <input type="text" id="playerOneName" name="playerOneName">
+                <label for="playerOneSign">Sign:</label>
+                <input type="text" id="playerOneSign" name="playerOneSign">
+                <h2>Player two's information</h2>
+                <label for="playerTwoName">Name:</label>
+                <input type="text" id="playerTwoName" name="playerTwoName">
+                <label for="playerTwoSign">Sign:</label>
+                <input type="text" id="playerTwoSign" name="playerTwoSign">
+            </form>
+            <div class="close">Create players</div>
+        </div>
+    </div>
+    <div id="winner"></div>
+    <div id="players"></div>
+    <div id="board"></div>
+</body>
+
+</html>
